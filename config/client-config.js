@@ -8,7 +8,12 @@ var config={
     paths:{
         html:'./src/*.html',
         js:'./src/**/*.js',
-        dist:'./dist'
+        css:[
+            'node_modules/bootstrap/dist/css/bootstrap.min.css',
+            'node_modules/bootstrap/dist/css/bootstrap-theme.min.css'
+        ],
+        dist:'./dist',
+        mainJs:'./src/main.js'
     }
 };
 
