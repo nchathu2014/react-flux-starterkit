@@ -1,0 +1,32 @@
+{
+  "name": "react-flux-starterkit",
+  "version": "1.0.0",
+  "description": "staterkit developed for react and flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchathu2014/react-flux-starterkit.git"
+  },
+  "keywords": [
+    "React",
+    "Flux",
+    "Webcomponents"
+  ],
+  "author": "T.D.Nuwan Chathuranga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nchathu2014/react-flux-starterkit/issues"
+  },
+  "homepage": "https://github.com/nchathu2014/react-flux-starterkit#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-open": "^2.0.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
