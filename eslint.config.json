@@ -1,7 +1,5 @@
 {
-  "ecmaFeatures": {
-    "jsx": true
-  },
+
   "env": {
     "browser": true,
     "node": true,
@@ -14,15 +12,20 @@
     "no-undef":1,
     "vars-on-top":1,
     "semi":1,
+    "sort-imports":0,
     "no-trailing-spaces": 1,
     "eol-last": 1,
     "no-unused-vars": 1,
     "no-underscore-dangle": 1,
     "no-alert": 1,
-    "no-lone-blocks": 1
+    "no-lone-blocks": 1,
+    "react/display-name": 1,
+    "react/forbid-prop-types":1
   },
   "globals": {
     "jQuery": true,
     "$": true
-  }
+  },
+  "parser": "babel-eslint"
+
 }
